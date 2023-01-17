@@ -1,0 +1,14 @@
+{
+  "short_name": "NFT Collection Detail",
+  "name": "NFT Collection Detail",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: art;
+  src: url("assets/font/Orbitron-Regular.ttf");
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  --transition: 300ms;
+  background: linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  background: #fff3;
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  -webkit-background-clip: content-box;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  -webkit-background-clip: content-box;
+}
